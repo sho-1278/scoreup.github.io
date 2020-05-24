@@ -60,10 +60,7 @@ body{
 .dark-mode{
   background: black;
   color: white;
-}
-#topwe{
-  display: inline-block;
-}
+  }
 </style>
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script>
@@ -82,22 +79,9 @@ function navbar(){
    }
 }
   </script>
-  <script>
-function clickCounter() {
-  if (typeof(Storage) !== "undefined") {
-    if (localStorage.clickcount) {
-      localStorage.clickcount = Number(localStorage.clickcount)+1;
-    } else {
-      localStorage.clickcount = 1;
-    }
-    document.getElementById("result").innerHTML = "Congrats, You are the " + localStorage.clickcount +" visitor";
-  }
-}
-</script>
 </head>
-<body onload="timefunc(); clickCounter();">
-  <div id="topwe"><span id="result"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <button id="nightmode" onclick="navbar();">NIGHT MODE FOR READING</button><br><br></div>
+<body onload="timefunc();">
+  <button id="nightmode" onclick="navbar();">NIGHT MODE FOR READING</button><br><br>
 <div id ="shlok"><h1><div id="tau">LATEST NEWS SECTION:</div><marquee> MHRD SCHEDULES JEE MAIN TO BE HELD BETWEEN 18<sup>th</sup>-23<sup>th</sup> july 2020 , JEE ADVANCED SCHEDULED ON 23<sup>rd</sup>AUGUST 2020 </marquee> </h1></div><br>
 <div id="cnter"><strong>CURRENT TIME IS:</strong><span id="cntr"></span></div>
 <h1><div id="kent"><center><strong><b><big>Score Up JEE</big></b></strong></center></div></h1>
